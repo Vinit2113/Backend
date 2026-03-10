@@ -2,18 +2,16 @@
   "name": "mega-project",
   "version": "1.0.0",
   "description": "A professional backen",
+  "types": "module",
   "keywords": [
     "javascript",
     "backend"
   ],
   "license": "ISC",
   "author": "Vinit Shah",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
